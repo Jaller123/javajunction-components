@@ -1,2 +1,2 @@
 # userstory
-Making **bold** and *italic* text in Markdown.
+Making **bold** and *italic* text in actual Markdown.
