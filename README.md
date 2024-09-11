@@ -15,10 +15,8 @@ Making **bold** and *italic* text in actual Markdown.
 - Third item
 - fourth item
 
-@startuml
-abstract        abstract
-abstract class  "abstract class"
-@enduml
+  Mohamed is the **BEST**
+
 
 
 When `x = 3`, that means `x + 2 = 5`
