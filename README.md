@@ -10,4 +10,9 @@ Making **bold** and *italic* text in actual Markdown.
 - Third item
 - fourth item
 
+@startuml
+abstract        abstract
+abstract class  "abstract class"
+@enduml
+
 
