@@ -1,7 +1,6 @@
 # userstory
-<<<<<<< HEAD
-> i need help ghgh. 
-=======
+> i need helph. 
+
 
 Making **bold** and *italic* text in actual Markdown.
 - First item
@@ -10,4 +9,3 @@ Making **bold** and *italic* text in actual Markdown.
 - fourth item
 
 
->>>>>>> cc13ad20402005690ceb0eb11f3ac0a19c0eb592
