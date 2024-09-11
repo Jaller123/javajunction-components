@@ -15,8 +15,12 @@ Making **bold** and *italic* text in actual Markdown.
 - Third item
 - fourth item
 
+
+(e.g[NEW IPHONE](https://www.youtube.com/watch?v=9lx11dy9J30&ab_channel=MarquesBrownlee))
+
   Mohamed is the **BEST**
 
 
+>>>>>>> 88a0f85e4b484c4e2debc1b096746c91ccecea52
 
 When `x = 3`, that means `x + 2 = 5`
