@@ -14,7 +14,4 @@ Making **bold** and *italic* text in actual Markdown.
 - Third item
 - fourth item
 
-  Mohamed is the **BEST**
-
-
-
+  Mohamed is the **best***
