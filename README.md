@@ -1,7 +1,12 @@
 # userstory
 # Header 1
+
 <p>Halllloooo</p>
 I just love **bold text**.
+
+I love **Bold Text**
+
+Testing ***conflicting*** **code**
 
 Try to put a blank line before...-
 
@@ -16,7 +21,7 @@ This is really***very***important text.
   😀
 </p>
 
-Making **bold** and *italic* text in actual Markdown.
+Making **bold** and *italic* text in actual Markdown, now trying to solve conflicts.
 - First item
 - Second item
 - Third item
@@ -36,4 +41,6 @@ Making **bold** and *italic* text in actual Markdown.
 When `x = 3`, that means `x + 2 = 5`
 
 <p>Gubbarnaaaa</p>
-
+<p>
+Leker runt bara
+</p>
