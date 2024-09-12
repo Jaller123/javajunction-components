@@ -1,7 +1,7 @@
 # userstory
 # Header 1
 
-I just love **bold text**.
+I love **Bold Text**
 
 Testing ***conflicting*** **code**
 
