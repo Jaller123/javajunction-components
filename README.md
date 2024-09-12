@@ -1,7 +1,9 @@
 # userstory
 # Header 1
 
-I just love **bold text**.
+I love **Bold Text**
+
+Testing ***conflicting*** **code**
 
 Try to put a blank line before...-
 
@@ -16,7 +18,7 @@ This is really***very***important text.
   😀
 </p>
 
-Making **bold** and *italic* text in actual Markdown.
+Making **bold** and *italic* text in actual Markdown, now trying to solve conflicts.
 - First item
 - Second item
 - Third item
