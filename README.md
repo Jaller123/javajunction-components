@@ -17,7 +17,7 @@ This is really***very***important text.
 </p>
 
 Making **bold** and *italic* text in actual Markdown.
-- First itemm
+- First item
 - Second item
 - Third item
 - fourth item
@@ -31,7 +31,9 @@ Making **bold** and *italic* text in actual Markdown.
   Mohamed is the **BEST**
 
 
->>>>>>> 88a0f85e4b484c4e2debc1b096746c91ccecea52
+
 
 When `x = 3`, that means `x + 2 = 5`
->>>>>>> 1ddaa59dcfa443e283d32269560fe24784dc665a
+
+<p>Gubbarnaaaa</p>
+
