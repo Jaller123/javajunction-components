@@ -1,6 +1,8 @@
 # userstory
 # Header 1
 
+I just love **bold text**.
+
 Try to put a blank line before...-
 
 ...and after a horizontal rule. 
