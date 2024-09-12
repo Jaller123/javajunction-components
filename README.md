@@ -3,6 +3,8 @@
 
 I just love **bold text**.
 
+Testing ***conflicting*** **code**
+
 Try to put a blank line before...-
 
 ...and after a horizontal rule. 
@@ -16,7 +18,7 @@ This is really***very***important text.
   😀
 </p>
 
-Making **bold** and *italic* text in actual Markdown.
+Making **bold** and *italic* text in actual Markdown, now trying to solve conflicts.
 - First item
 - Second item
 - Third item
