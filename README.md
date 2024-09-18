@@ -1,58 +1,8 @@
-# Javajunction-frontend
-# Header 1
+# React + Vite
 
-<h2>TEST</h2>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<p>Halllloooo</p>
-I just love **bold text**.
+Currently, two official plugins are available:
 
-<p>testar igen</p>
-
-I love **Bold Text**
-
-Testing ***conflicting*** **code**
-
-Try to put a blank line before...-
-
-...and after a horizontal rule. 
-
-A*cat*meow
-
-This is really***very***important text.
-
-> Making a Blockqoute in Markdown. 
-<p>
-  😀
-</p>
-
-Making **bold** and *italic* text in actual Markdown, now trying to solve conflicts.
-- First item
-- Second item
-- Third item
-- fourth item
-
-
-  Mohamed is the **best***
-
-
-(e.g[NEW IPHONE](https://www.youtube.com/watch?v=9lx11dy9J30&ab_channel=MarquesBrownlee))
-
-  Mohamed is the **BEST**
-
-
-
-
-When `x = 3`, that means `x + 2 = 5`
-
-<p>Gubbarnaaaa</p>
-<p>
-Leker runt bara
-</p>
-<p>
-Leker runt bara
-</p>
-## Header 2
-### Header 3
-<h3>Heeeej</h3>
-<h2>HEEEEj</h2>
-<h2>111111</h2>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
