@@ -1,0 +1,24 @@
+/*CSS component */
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+li {
+    background-color: bisque;
+    list-style-type: none;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
