@@ -1,9 +1,13 @@
 /* CSS component */
 .FooterTitle {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    text-decoration: underline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-template-columns: repeat(3, 1fr);
     background-color: #664229;
     color: #020202;
+}
+
+.FooterTitle p {
+    margin-left: 20px;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

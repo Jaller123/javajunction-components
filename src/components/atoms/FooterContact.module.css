@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    background-color: #664229;
+    background-color: #B99976;
 }
 
 .FooterContact p {

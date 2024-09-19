@@ -6,7 +6,6 @@ const FooterTitle = () => {
             <p>Navigate</p>
             <p>Company</p>
             <p>Social media</p>
-            <p>Find us</p>
         </div>
     )
 }
