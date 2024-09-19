@@ -1,8 +1,22 @@
-import { components } from "storybook/internal/components"
-import Header from "./Header"
-
+import { components } from "storybook/internal/components";
+import Header from "./Header";
 export default {
-    title: "javajunction-frontend/components/molecules/FirstMolecule",
+    title: "javajunction-frontend/components/molecules/Header",
     component: Header
 }
-export const Default = {}
+export const Default = {
+
+}
+
+// import Header from "./Header";
+
+// export default {
+//     title: "javajunction-frontend/components/molecules/Header",
+//     component: Header,
+// };
+
+// export const Default = {
+//     // args: {
+//     //     title: "piow"
+//     // }
+// };
