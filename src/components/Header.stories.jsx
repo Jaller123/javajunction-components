@@ -5,4 +5,8 @@ export default {
     component: Header,
 };
 
-export const Default = {};
+export const Default = {
+    args: {
+        title: "piow"
+    }
+};
