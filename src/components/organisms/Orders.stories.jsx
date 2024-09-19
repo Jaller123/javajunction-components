@@ -1,7 +1,7 @@
 import Orders from "./Orders"
 
 export default {
-    title: "javajunction-frontend/components/Orders",
+    title: "javajunction-frontend/components/organisms/Orders",
     component: Orders,
 }
 
