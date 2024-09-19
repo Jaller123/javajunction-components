@@ -1,0 +1,9 @@
+/* CSS component */
+.FooterTitle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #664229;
+    color: #020202;
+}
