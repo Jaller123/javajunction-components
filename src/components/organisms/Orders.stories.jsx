@@ -5,6 +5,4 @@ export default {
     component: Orders,
 }
 
-export const Default = {
-
-};
+export const Default = {};
