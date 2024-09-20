@@ -1,7 +1,7 @@
 import Footer from "./Footer"
 
 export default {
-    title: "javajunction-frontend/components/Footer",
+    title: "javajunction-frontend/components/organisms/Footer",
     component: Footer,
 }
 

@@ -1,7 +1,7 @@
 const FirstMolecule = () => {
     return (
         <>
-            Header
+            First Molecule
         </>
     )
 }
