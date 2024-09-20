@@ -14,7 +14,7 @@ const Header = () => {
     )
 }
 export default Header
-// const Header = () => {
+// const Header = ({ title, children }) => {
 //     // if (!title) {
 //     //     console.warn("Title is missing in Login button")
 //     // }
@@ -25,4 +25,4 @@ export default Header
 //     )
 // }
 // export default Header
-// // { title, children }
+// // 

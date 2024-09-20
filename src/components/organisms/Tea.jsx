@@ -1,10 +1,10 @@
 import React from "react";
-const Te = () => {
+const Tea = () => {
   return (
     <>
-      <div>Te</div>
+      <div>Tea</div>
     </>
   );
 };
 
-export default Te;
+export default Tea;

@@ -1,4 +1,4 @@
-import Te from "./Te";
+import Te from "./Tea";
 
 export default {
   title: "javajunction-frontend/components/organisms/Te",

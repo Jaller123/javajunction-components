@@ -1,5 +1,5 @@
 import { components } from "storybook/internal/components";
-import FirstMolecule from "./FirstMolecule";
+import FirstMolecule from "./NavLinks";
 
 export default {
     title: "JAvajunction-Frontend/Components/Molecules/FirstMolecule",
