@@ -1,4 +1,4 @@
-const Navigate = () => {
+const FooterNavigate = () => {
     return (
         <div>
             <p>Home</p>
@@ -8,4 +8,4 @@ const Navigate = () => {
     );
 }
 
-export default Navigate
+export default FooterNavigate;

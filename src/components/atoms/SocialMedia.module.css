@@ -1,10 +1,12 @@
-/* CSS component */
-.FooterTitle {
+.SocialMedia {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* Tre lika stora kolumner */
+    background-color: #664229;
+    color: #020202;
 }
 
-.FooterTitle p {
+.SocialMedia p {
     margin-left: 20px;
     text-decoration: underline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
