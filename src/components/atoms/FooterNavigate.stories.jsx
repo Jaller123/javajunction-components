@@ -5,4 +5,4 @@ export default {
     component: FooterNavigate,
 }
 
-export const Default = {};
+export const Default = {}
