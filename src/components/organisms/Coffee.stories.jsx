@@ -1,7 +1,7 @@
 import Coffee from "./coffee";
 
 export default {
-  title: "javajunction-frontend/components/Coffee",
+  title: "javajunction-frontend/components/organisms/Coffee",
   component: Coffee,
 };
 

@@ -1,0 +1,8 @@
+.OrdersContainer
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #DAB992; 
+    height: 100vh;        
+}
