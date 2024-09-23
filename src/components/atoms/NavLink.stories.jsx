@@ -1,15 +1,15 @@
 import { components } from "storybook/internal/components";
-import NavLinkHeader from "./NavLinkHeader";
+import Navlink from "./NavLink";
 import { MemoryRouter } from "react-router-dom";
 
 export default {
-    title: 'javajunction-frontend/components/atoms/NavLinkHeader',
-    component: NavLinkHeader,
+    title: 'javajunction-frontend/components/atoms/Navlink',
+    component: Navlink,
 };
 
 const Template = (args) => (
     <MemoryRouter>
-        <NavLinkHeader {...args} />
+        <Navlink {...args} />
     </MemoryRouter>
 );
 

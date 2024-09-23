@@ -1,3 +1,8 @@
 .header {
     background-color: #B99976;
+    display: flex;
+    justify-content: space-between;
+    /* Push Logo to the left and NavLinks to the right */
+    align-items: center;
+
 }

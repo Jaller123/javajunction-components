@@ -1,11 +1,14 @@
 import Logo from "../atoms/Logo"
 import styles from "./Header.module.css"
+import NavLinks from "../molecules/NavLinks"
 
 const Header = () => {
     return (
         <>
             <div className={styles.header}>
                 <Logo />
+                <NavLinks />
+
 
             </div>
         </>

@@ -1,18 +1,18 @@
-import NavLinkHeader from "../atoms/NavLinkHeader"
+import Navlink from "../atoms/Navlink"
 import Coffee from "../organisms/Coffee"
 import Tea from "../organisms/Tea"
 import AboutUs from "../organisms/AboutUs"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styles from "./NavLinks.Module.css"
 
-const FirstMolecule = () => {
+const NavLinks = () => {
     return (
         <Router>
             <>
                 <div className={styles.navbar}>
-                    <NavLinkHeader title="Coffee" link={Coffee} className={styles.link} />
-                    <NavLinkHeader title="Tea" link={Tea} className={styles.link} />
-                    <NavLinkHeader title="About us" link={AboutUs} className={styles.link} />
+                    <Navlink title="Coffee" link={Coffee} className={styles.link} />
+                    <Navlink title="Tea" link={Tea} className={styles.link} />
+                    <Navlink title="About us" link={AboutUs} className={styles.link} />
 
                 </div>
                 <Routes>
@@ -26,4 +26,4 @@ const FirstMolecule = () => {
 
     )
 }
-export default FirstMolecule
+export default NavLinks

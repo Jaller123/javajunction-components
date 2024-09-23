@@ -1,9 +1,9 @@
 import { components } from "storybook/internal/components";
-import FirstMolecule from "./NavLinks";
+import NavLinks from "./NavLinks";
 
 export default {
-    title: "JAvajunction-Frontend/Components/Molecules/FirstMolecule",
-    component: FirstMolecule,
+    title: "JAvajunction-Frontend/Components/Molecules/NavLinks",
+    component: NavLinks,
 }
 export const Default = {
 
