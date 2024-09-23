@@ -1,5 +1,4 @@
 import React from "react";
-import CoffeeImage from "../../Pictures/CoffeeBeans.jpg";
 import styles from "./CoffeeImg.module.css";
 
 const CoffeeImg = () => {
@@ -8,8 +7,8 @@ const CoffeeImg = () => {
       <div>
         <img
           className={styles.coffeeImg}
-          src={CoffeeImage}
-          alt="Coffee Beans"
+          src="https://via.placeholder.com/150?text=Coffee+Placeholder" // Placeholder bild
+          alt="img"
         />
       </div>
     </>
