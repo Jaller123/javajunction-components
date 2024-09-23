@@ -1,3 +1,6 @@
 .Logo {
-    margin-right: 40px;
+    object-fit: contain;
+    /* Keep the aspect ratio */
+    width: 330px;
+    height: 110px;
 }

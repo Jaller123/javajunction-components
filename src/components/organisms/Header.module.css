@@ -4,5 +4,7 @@
     justify-content: space-between;
     /* Push Logo to the left and NavLinks to the right */
     align-items: center;
+    height: auto;
+    overflow: visible;
 
 }
