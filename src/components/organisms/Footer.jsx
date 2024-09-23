@@ -4,7 +4,7 @@ import styles from "./Footer.module.css"
 const Footer = () => {
     return (
         <div className={styles.footerContainer}>
-            <div className="container">
+            <div className={styles.containerArticle}>
                 <article>
                     <p>Navigate</p>
                     <li>Home</li>
@@ -24,10 +24,14 @@ const Footer = () => {
                     <li>Instagram</li>
                     <li>LinkedIn</li>
                 </article>
+                <article>
+                    <p>Find us</p>
+                </article>
             </div>
             <footer>
+                <p>Adress:</p>
+                <p>Telefon:</p>
                 <p>JavaJunction &copy;</p>
-                <a href="*">javajunction@example.com</a>
             </footer>
         </div>
     )
