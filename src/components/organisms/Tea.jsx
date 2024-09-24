@@ -1,22 +1,37 @@
-
 import React from "react";
+import CoffeeImg from "../atoms/CoffeeImg"; 
+import AddToCartBtn from "../atoms/AddToCartBtn"; 
 import styles from "./Tea.module.css"; 
-const Tea = () => (
-  <>
-    
-    <h1>Tea</h1>
-     
-    
-        </>
-        );
+const Tea = () => {
+  const items = Array.from({ length: 8 }, (_, index) => index + 1);
 
-export default Tea
-    {/*  <div className={styles.grid}>
-      {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-        <div className={styles.item} key={item}>
-          <img src={`https://via.placeholder.com/150?text=Image+${item}`} alt={`Image ${item}`} />
-          <button className={styles.button}>Add to cart</button>
-        </div>
-      ))}
-      </div>  */}
+  return (
+    <div className={styles.pageContainer}>
+      <h1>Tea</h1>
+      
+      <div className={styles.gridContainer}>
+       
+     <div className={styles.topSection}>
+        {items.slice(0, 4).map((item) => (
+        <div key={item} className={styles.item}>
+         <CoffeeImg />
+        <AddToCartBtn />
+   </div>
+   ))}
+    </div>
 
+       
+  <div className={styles.bottomSection}>
+  {items.slice(4, 8).map((item) => (
+     <div key={item} className={styles.item}>
+     <CoffeeImg />
+       <AddToCartBtn />
+     </div>
+       ))}
+    </div>
+     </div>
+    </div>
+  );
+};
+
+export default Tea;
