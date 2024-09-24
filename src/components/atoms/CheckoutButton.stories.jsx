@@ -5,6 +5,4 @@ export default {
     component: CheckoutButton,
 }
 
-export const Default = {
-
-}
+export const Default = {}

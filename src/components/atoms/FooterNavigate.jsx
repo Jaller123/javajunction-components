@@ -1,10 +1,13 @@
 const FooterNavigate = () => {
     return (
-        <div>
-            <p>Home</p>
-            <p>Coffee</p>
-            <p>Tea</p>
-        </div>
+        <>
+            <div>
+                <p>Home</p>
+                <p>Coffee</p>
+                <p>Tea</p>
+            </div>
+        </>
+
     );
 }
 
