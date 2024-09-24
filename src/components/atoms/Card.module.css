@@ -1,0 +1,20 @@
+h1 {
+    white-space: nowrap;
+    /* Förhindra radbrytning */
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.linkSections {
+    display: flex;
+    gap: 20px;
+}
+
+.linkSections>div {
+    flex: 1;
+    text-align: left;
+}
