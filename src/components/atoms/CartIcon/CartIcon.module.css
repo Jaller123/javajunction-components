@@ -1,0 +1,19 @@
+.shoppingIcon {
+    width: 30px;
+    height: 30px;
+    background-image: url("../../../assets/shoppingcarticon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    background-color: white;  
+    border: 2px solid black;  
+    margin-top: 2px;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+  }
+  
+  .shoppingIcon:hover {
+    background-color: #ffffff; 
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+  

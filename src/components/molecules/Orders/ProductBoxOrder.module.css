@@ -1,6 +1,7 @@
-.shoppingCart {
+.productBox
+{
     display: flex;
-    flex: 2;
+    flex: 0.5;
     padding: 20px;
     background-color: #C5A374;
     border-radius: 10px;

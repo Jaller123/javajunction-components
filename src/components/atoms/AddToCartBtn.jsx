@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "./AddToCartBtn.module.css";
 
-const AddToCartBtn = () => {
+const AddToCartBtn = ({ handleAddToCart }) => {
   return (
-    <>
-      <div>
-        <button className={styles.addToCartBtn}>Add to cart</button>
-      </div>
-    </>
+    <div>
+      <button className={styles.addToCartBtn} onClick={handleAddToCart}>
+        Add to cart
+      </button>
+    </div>
   );
 };
 
