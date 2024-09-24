@@ -1,5 +1,5 @@
 import AboutUsImg2 from "../../Pictures/Kaffe-Bild3.jpg"
-import styles from "../atoms/AboutUsImg.module.css"
+import styles from "../atoms/AboutUsImg2.module.css"
 
 const AboutUsImg2 = () => {
     
