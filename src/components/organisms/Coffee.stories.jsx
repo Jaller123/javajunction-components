@@ -1,4 +1,4 @@
-import Coffee from "./coffee";
+import Coffee from "./Coffee";
 
 export default {
   title: "javajunction-frontend/components/organisms/Coffee",
