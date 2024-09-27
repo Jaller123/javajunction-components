@@ -1,7 +1,7 @@
 import React from "react";
 import CoffeeImg from "../atoms/CoffeeImg";
 import AddToCartBtn from "../atoms/AddToCartBtn";
-import styles from "./Tea.module.css";
+import styles from "./Coffee.module.css";
 const Coffee = () => {
   const items = Array.from({ length: 8 }, (_, index) => index + 1);
 
