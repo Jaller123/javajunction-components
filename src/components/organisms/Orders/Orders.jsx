@@ -11,19 +11,23 @@ import ProductBoxOrder from '../../molecules/Orders/ProductBoxOrder';
 const Orders = () => {
   return (
   <>
-<div >
+
   <div className={styles.ShoppingCart}>
     <div className={styles.OrderSummary}>
+   
       <div className={styles.ordersContainer}>  
       <OrdersContainer />  
+      <div className={styles.productBox}>
       <OrderSummary /> 
       <ProductBoxOrder />
+      </div>
       <ShoppingCart />
       
       </div>
+      </div>
     </div>
-  </div>
-</div>
+  
+
   </>
   )
 }
