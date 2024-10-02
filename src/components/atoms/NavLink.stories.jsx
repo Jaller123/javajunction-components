@@ -1,5 +1,5 @@
 import { components } from "storybook/internal/components";
-import Navlink from "./NavLink";
+import Navlink from "./Navlink";
 import { MemoryRouter } from "react-router-dom";
 
 export default {

@@ -11,12 +11,15 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.2"
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6"
   },
   "devDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
     "@babel/preset-env": "^7.25.4",
     "@babel/preset-react": "^7.24.7",
     "@chromatic-com/storybook": "^1.9.0",

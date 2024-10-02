@@ -1,3 +1,4 @@
+import React from "react"
 import HeroImg from "../../Pictures/HERO.png"
 import Styles from "./Hero.module.css"
 const Hero = () => {

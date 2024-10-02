@@ -1,3 +1,4 @@
+import React from "react"
 import LogoImg from "../../Pictures/JavaJLogo.png"
 import styles from "../atoms/Logo.module.css"
 const Logo = () => {
