@@ -1,35 +1,27 @@
-import React from 'react'
-import OrdersContainer from "../../molecules/Orders/OrdersContainer"
-import OrderSummary from "../../molecules/Orders/OrderSummary"
-import ShoppingCart from "../../molecules/Orders/ShoppingCart"
+import React from 'react';
+import OrdersContainer from "../../molecules/Orders/OrdersContainer";
+import OrderSummary from "../../molecules/Orders/OrderSummary";
+import ShoppingCart from "../../molecules/Orders/ShoppingCart";
 import styles from './Orders.module.css';
 import ProductBoxOrder from '../../molecules/Orders/ProductBoxOrder';
 
-
-
-
 const Orders = () => {
   return (
-  <>
-
-  <div className={styles.ShoppingCart}>
-    <div className={styles.OrderSummary}>
-   
-      <div className={styles.ordersContainer}>  
-      <OrdersContainer />  
-      <div className={styles.productBox}>
-      <OrderSummary /> 
-      <ProductBoxOrder />
+    <div className={styles.ordersContainer}>
+      <div className={styles.shoppingCart}>
+        <ShoppingCart />
       </div>
-      <ShoppingCart />
-      
-      </div>
+      <div className={styles.orderSummary}>
+        <OrderSummary />
+        <div />
+        <div className={styles.orderSummary}>
+        <ProductBoxOrder  />
+        <ProductBoxOrder />
+        <ProductBoxOrder />
+        </div>
       </div>
     </div>
-  
-
-  </>
-  )
+  );
 }
 
-export default Orders
+export default Orders;

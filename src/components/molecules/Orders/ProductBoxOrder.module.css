@@ -1,10 +1,12 @@
 .productBox
 {
     display: flex;
-    flex: 0.5;
+    flex: 0.2;
     padding: 20px;
     background-color: #C5A374;
     border-radius: 10px;
     flex-direction: column;
     justify-content: space-around;
+    position: relative;
+    bottom: 120px;
 }
