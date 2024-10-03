@@ -1,6 +1,6 @@
 import React from 'react';
-import FootLink from './FooterLink';
-import styles from './cardfooter.module.css';
+/* import FootLink from './FooterLink';
+import styles from './cardfooter.module.css'; */
 
 // länk-komponenter för Navigate
 const Link1 = () => <p><a href="/">Home</a></p>;

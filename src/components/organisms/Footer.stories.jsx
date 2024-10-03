@@ -1,8 +1,12 @@
-import Footer from "./Footer"
+import React from 'react';
+import Footer from './Footer';
 
 export default {
-    title: "javajunction-frontend/components/organisms/Footer",
+    title: 'javajunction-frontend/components/organisms/Footer',
     component: Footer,
-}
+};
 
-export const Default = {};
+const Template = (args) => <Footer {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {};

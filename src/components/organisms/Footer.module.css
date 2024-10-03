@@ -1,31 +1,30 @@
-/*CSS component */
-footer {
-    margin-top: 80px;
-    text-align: center;
-    /* padding: 0px; */
-    background-color: DarkSalmon;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+.footerContainer {
+    margin: 10px;
+    padding: 20px;
+    background-color: #664229;
 }
 
-/* footer p {
-    display: flex;
-} */
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-li {
-    background-color: bisque;
+.linkList {
     list-style-type: none;
-    padding: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
 }
 
-.containerArticle {
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    gap: 50px;
+.linkList li {
+    margin: 5px 0;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.linkList li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.linkList li a:hover {
+    color: #007bff;
 }
