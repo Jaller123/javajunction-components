@@ -2,7 +2,7 @@ import React from 'react';
 import FooterAdress from '../atoms/FooterAdress';
 import FooterPhone from '../atoms/FooterPhone';
 import FooterCopy from '../atoms/FooterCopy';
-import styles from './AddFooter.module.css'; // Skapa en CSS-fil för layouten
+import styles from './AddFooter.module.css';
 
 const AddFooter = () => {
     return (
