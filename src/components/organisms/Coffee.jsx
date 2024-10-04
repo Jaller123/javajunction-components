@@ -46,6 +46,7 @@ const Coffee = () => {
           ))}
         </div>
       </div>
+      <hr />
     </div>
   );
 };
