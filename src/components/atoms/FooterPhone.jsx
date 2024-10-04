@@ -1,12 +1,14 @@
 import React from "react";
 
 const FooterPhone = () => {
+    return (
+        <>
+            <div>
+                <p>Phone:</p>
+            </div>
+        </>
+    )
 
-    <>
-        <div>
-            <p>Phone:</p>
-        </div>
-    </>
 }
 
 
