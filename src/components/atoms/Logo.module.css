@@ -3,4 +3,8 @@
     /* Keep the aspect ratio */
     width: 330px;
     height: 110px;
+    position: sticky;
+    top: 0;
+    left: 0;
+
 }

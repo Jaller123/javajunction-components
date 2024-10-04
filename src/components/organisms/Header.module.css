@@ -2,9 +2,10 @@
     background-color: #B99976;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     align-items: center;
-    height: auto;
-    overflow: visible;
+    position: relative;
+    /* height: auto;
+    overflow: visible; */
     border-bottom: 5px solid black
 }

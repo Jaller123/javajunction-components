@@ -16,11 +16,11 @@ const NavLinks = () => {
                     <Navlink title="About us" link={AboutUs} className={styles.link} />
 
                 </div>
-                {/* <Routes>
+                <Routes>
                     <Route path="/coffee" Component={Coffee} />
                     <Route path="/Tea" Component={Tea} />
                     <Route path="/About us" Component={AboutUs} />
-                </Routes> */}
+                </Routes>
 
             </>
         </Router>
