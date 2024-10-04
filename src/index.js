@@ -4,7 +4,8 @@ import NavLinks from "./components/molecules/NavLinks";
 import Coffee from "./components/organisms/Coffee";
 import Tea from "./components/organisms/Tea";
 import AboutUs from "./components/organisms/AboutUs";
-import Footer from "./components/organisms/Footer"
-import Hero from "./components/atoms/Hero"
+import Footer from "./components/organisms/Footer";
+import Hero from "./components/atoms/Hero";
+import AddFooter from "./components/organisms/AddFooter";
 
-export { Coffee, ProjectPages, Header, NavLinks, Tea, AboutUs, Footer, Hero };
+export { Coffee, ProjectPages, Header, NavLinks, Tea, AboutUs, Footer, Hero, AddFooter };

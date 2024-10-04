@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './FooterPhone.module.css'
 
 const FooterPhone = () => {
