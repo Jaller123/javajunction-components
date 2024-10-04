@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './FooterAdress.module.css';
 const FooterAdress = () => {
     return (

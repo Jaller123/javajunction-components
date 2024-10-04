@@ -6,6 +6,6 @@ import Tea from "./components/organisms/Tea";
 import AboutUs from "./components/organisms/AboutUs";
 import Footer from "./components/organisms/Footer";
 import Hero from "./components/atoms/Hero";
-import AddFooter from "./components/organisms/AddFooter";
+import AddFooter from "./components/organisms/AddFooter"
 
 export { Coffee, ProjectPages, Header, NavLinks, Tea, AboutUs, Footer, Hero, AddFooter };
