@@ -11,11 +11,13 @@ const NavLinks = () => {
         <Router>
             <>
                 <div className={styles.navbar}>
-                    <Navlink title="Coffee" link={Coffee} className={styles.link} />
-                    <Navlink title="Tea" link={Tea} className={styles.link} />
-                    <Navlink title="About us" link={AboutUs} className={styles.link} />
-
+                    <div className={styles.subNavbar} >
+                        <Navlink title="Coffee" link={Coffee} className={styles.link} />
+                        <Navlink title="Tea" link={Tea} className={styles.link} />
+                        <Navlink title="About us" link={AboutUs} className={styles.link} />
+                    </div>
                 </div>
+
                 <Routes>
                     <Route path="/coffee" Component={Coffee} />
                     <Route path="/Tea" Component={Tea} />
