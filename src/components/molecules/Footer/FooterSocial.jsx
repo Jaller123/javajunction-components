@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FooterSocial.module.css'; // Använda CSS-modul
+import styles from './FooterSocial.module.css';
 
 const FooterSocial = () => {
     return (
