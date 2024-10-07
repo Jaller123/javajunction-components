@@ -6,9 +6,9 @@ const FooterSocial = () => {
         <div className={styles.footerContainer}>
             <h3 className={styles.title}>Follow Us</h3>
             <ul className={styles.linkList}>
-                <li><a href="#facebook">Facebook</a></li>
-                <li><a href="#twitter">Twitter</a></li>
-                <li><a href="#instagram">Instagram</a></li>
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
             </ul>
         </div>
     );
