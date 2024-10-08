@@ -13,7 +13,6 @@ const AboutUsMiddleContent = () => {
                 <AboutUsText2 />
             </div>
             <div className={styles.empty}>
-                {/* Tom kolumn till höger */}
             </div>
         </div>
     );
