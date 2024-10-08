@@ -2,14 +2,14 @@ import React from "react";
 import Logo from "../atoms/Logo";
 import styles from "./Header.module.css";
 import NavLinks from "../molecules/NavLinks";
-import CartIcon from "../atoms/CartIcon/CartIcon"
-const Header = () => {
+
+const Header = ({ navLinksClassName }) => {
   return (
     <>
       <div className={styles.header}>
         <Logo />
-        <NavLinks />
-        {/* // <CartIcon /> */}
+        <NavLinks className={navLinksClassName} />
+
       </div>
     </>
   );
