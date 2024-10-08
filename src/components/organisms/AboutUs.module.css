@@ -10,11 +10,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #E5D3B3;
     margin: 0;
+    font-size: 14px;
 }
 
-.molecule {
-    height: 200px;
+.molecule p {
+    font-size: 14px;
+    background-color: #D2B48C;
+    padding: 10px;
+    border-radius: 12px;
 }

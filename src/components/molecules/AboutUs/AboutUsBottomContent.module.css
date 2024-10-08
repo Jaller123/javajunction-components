@@ -3,21 +3,24 @@
     justify-content: space-between;
     align-items: stretch;
     width: 100%;
-    background-color: #E5D3B3; 
     padding: 20px;
+    border-radius: 20px;
 }
 
 .text {
     flex: 1; 
-    padding-left: 20px;
+    max-width: 600px;
+    margin: auto; 
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #D2B48C;
 }
 
 .image {
     flex: 1;
-    background-color: #D2B48C;
+    background-color: #B99976;
     display: flex;
     justify-content: center;
     align-items: center;
