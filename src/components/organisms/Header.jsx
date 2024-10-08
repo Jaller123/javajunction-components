@@ -9,7 +9,7 @@ const Header = () => {
       <div className={styles.header}>
         <Logo />
         <NavLinks />
-        // <CartIcon />
+        {/* // <CartIcon /> */}
       </div>
     </>
   );
