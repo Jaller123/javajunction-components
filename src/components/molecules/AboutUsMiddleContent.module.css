@@ -1,0 +1,28 @@
+.AboutUsMiddleContent {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    background-color: #D2B48C; 
+}
+
+.text {
+    flex: 2;
+    text-align: center;
+    padding: 0 20px;
+    background-color: #E5D3B3;
+}
+
+.empty {
+    flex: 1;
+    background-color: #D2B48C;
+}
