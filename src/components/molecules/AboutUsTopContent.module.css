@@ -1,0 +1,19 @@
+.AboutUsTopContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #E5D3B3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text {
+    flex: 1; 
+    padding-right: 20px;
+}
+
+.image {
+    flex: 1;
+}
+
