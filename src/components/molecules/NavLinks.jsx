@@ -1,30 +1,37 @@
-import React from "react"
-import Navlink from "../atoms/Navlink"
-import Coffee from "../organisms/Coffee"
-import Tea from "../organisms/Tea"
-import AboutUs from "../organisms/AboutUs"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import styles from "./NavLinks.Module.css"
+import React from "react";
+import styles from "./NavLinks.Module.css";
 
-const NavLinks = ({ NavLinksclassName, customNavLinkClass }) => {
+const NavLinks = ({ className, customNavLinkClass, scrollToSection, coffeeRef, teaRef, aboutUsRef }) => {
     return (
-
-        <>
-            <div className={`${styles.navbar} ${NavLinksclassName}`}>
-                {/* <div className={styles.subNavbar} > */}
-                <Navlink title="Coffee" link={Coffee} className={`${styles.link} ${customNavLinkClass}`} />
-                <Navlink title="Tea" link={Tea} className={`${styles.link} ${customNavLinkClass}`} />
-                <Navlink title="About us" link={AboutUs} className={`${styles.link} ${customNavLinkClass}`} />
-                {/* </div> */}
+        <div className={`${styles.navbar} ${className}`}>
+            {/* Scroll to Coffee section */}
+            <div
+                className={`${styles.link} ${customNavLinkClass}`}
+                onClick={() => scrollToSection(coffeeRef)}
+            >
+                Coffee
             </div>
 
-        </>
+            {/* Scroll to Tea section */}
+            <div
+                className={`${styles.link} ${customNavLinkClass}`}
+                onClick={() => scrollToSection(teaRef)}
+            >
+                Tea
+            </div>
 
+            {/* Scroll to About Us section */}
+            <div
+                className={`${styles.link} ${customNavLinkClass}`}
+                onClick={() => scrollToSection(aboutUsRef)}
+            >
+                About Us
+            </div>
+        </div>
+    );
+};
 
-    )
-}
-export default NavLinks
-
+export default NavLinks;
 //   <Router>
 //             <Routes>
 //                 <Route path="/coffee" Component={Coffee} />
