@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './FooterCompany.module.css'; // Använda CSS-modul
+import styles from './FooterCompany.module.css';
 
 const FooterCompany = () => {
     return (
