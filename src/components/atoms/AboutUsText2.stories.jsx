@@ -1,5 +1,4 @@
 import AboutUsText2 from "./AboutUsText2";
-import AboutUsText from "./AboutUsText2";
 
 export default {
     title: "javajunction-frontend/components/atoms/AboutUsText2",
