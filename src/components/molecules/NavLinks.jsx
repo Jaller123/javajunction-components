@@ -13,8 +13,8 @@ const NavLinks = ({ className, customNavLinkClass }) => {
                 <div className={`${styles.navbar} ${className}`}>
                     {/* <div className={styles.subNavbar} > */}
                     <Navlink title="Coffee" link={Coffee} className={`${styles.link} ${customNavLinkClass}`} />
-                    <Navlink title="Tea" link={Tea} className={styles.link} />
-                    <Navlink title="About us" link={AboutUs} className={styles.link} />
+                    <Navlink title="Tea" link={Tea} className={`${styles.link} ${customNavLinkClass}`} />
+                    <Navlink title="About us" link={AboutUs} className={`${styles.link} ${customNavLinkClass}`} />
                     {/* </div> */}
                 </div>
 
