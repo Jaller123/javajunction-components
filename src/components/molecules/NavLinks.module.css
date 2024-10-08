@@ -1,14 +1,22 @@
-.navbar {
+/* .navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
     background-color: #C2AC93;
-    width: 210px;
+    width: 50%;
     height: 25px;
     padding: 10px;
     border-radius: 30px;
     border-radius: 2px solid black;
+    margin-right: 10px;
 
 }
+
+
+.subNavbar {
+    display: contents;
+}  */
 
 .link {
     color: black;

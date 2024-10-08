@@ -1,30 +1,41 @@
-import React from "react"
-import Navlink from "../atoms/Navlink"
-import Coffee from "../organisms/Coffee"
-import Tea from "../organisms/Tea"
-import AboutUs from "../organisms/AboutUs"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import styles from "./NavLinks.Module.css"
+import React from "react";
+import styles from "./NavLinks.Module.css";
 
-const NavLinks = () => {
+const NavLinks = ({ className, customNavLinkClass, scrollToSection, coffeeRef, teaRef, aboutUsRef }) => {
     return (
-        <Router>
-            <>
-                <div className={styles.navbar}>
-                    <Navlink title="Coffee" link={Coffee} className={styles.link} />
-                    <Navlink title="Tea" link={Tea} className={styles.link} />
-                    <Navlink title="About us" link={AboutUs} className={styles.link} />
+        <div className={`${styles.navbar} ${className}`}>
+            {/* Scroll to Coffee section */}
+            <div
+                className={`${styles.link} ${customNavLinkClass}`}
+                onClick={() => scrollToSection(coffeeRef)}
+            >
+                Coffee
+            </div>
 
-                </div>
-                <Routes>
-                    <Route path="/coffee" Component={Coffee} />
-                    <Route path="/Tea" Component={Tea} />
-                    <Route path="/About us" Component={AboutUs} />
-                </Routes>
+            {/* Scroll to Tea section */}
+            <div
+                className={`${styles.link} ${customNavLinkClass}`}
+                onClick={() => scrollToSection(teaRef)}
+            >
+                Tea
+            </div>
 
-            </>
-        </Router>
+            {/* Scroll to About Us section */}
+            <div
+                className={`${styles.link} ${customNavLinkClass}`}
+                onClick={() => scrollToSection(aboutUsRef)}
+            >
+                About Us
+            </div>
+        </div>
+    );
+};
 
-    )
-}
-export default NavLinks
+export default NavLinks;
+//   <Router>
+//             <Routes>
+//                 <Route path="/coffee" Component={Coffee} />
+//                 <Route path="/Tea" Component={Tea} />
+//                 <Route path="/About us" Component={AboutUs} />
+//             </Routes>
+// </Router >

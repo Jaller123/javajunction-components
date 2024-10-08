@@ -10,8 +10,17 @@ import coffee5 from "../../Pictures/CoffeeImg5.jpg";
 import coffee6 from "../../Pictures/CoffeeImg6.jpg";
 import coffee7 from "../../Pictures/CoffeeImg7.jpg";
 import coffee8 from "../../Pictures/CoffeeImg8.jpg";
+import CartIcon from "../atoms/CartIcon/CartIcon";
+import { useState } from "react";
+
 
 const Coffee = () => {
+  const [cartCount, setCartCount] = useState(0); 
+
+  const handleAddToCart = () => {
+    setCartCount(cartCount + 1); // Increment the cart count
+  };
+
   const items = Array.from({ length: 8 }, (_, index) => index + 1);
   const coffeeImages = [
     coffee1,
@@ -26,13 +35,14 @@ const Coffee = () => {
   return (
     <div className={styles.pageContainer}>
       <h1>Coffee</h1>
-
+      <CartIcon cartCount={cartCount} redirectToCheckout={() => alert("Redirect to Checkout")} />
       <div className={styles.gridContainer}>
         <div className={styles.topSection}>
           {items.slice(0, 4).map((item, index) => (
             <div key={item} className={styles.item}>
               <CoffeeImg src={coffeeImages[index]} />
-              <AddToCartBtn />
+              <AddToCartBtn handleAddToCart={handleAddToCart} />
+            
             </div>
           ))}
         </div>
@@ -41,7 +51,7 @@ const Coffee = () => {
           {items.slice(4, 8).map((item, index) => (
             <div key={item} className={styles.item}>
               <CoffeeImg src={coffeeImages[index + 4]} />
-              <AddToCartBtn />
+              <AddToCartBtn handleAddToCart={handleAddToCart} />
             </div>
           ))}
         </div>
