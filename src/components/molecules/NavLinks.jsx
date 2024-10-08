@@ -8,25 +8,27 @@ import styles from "./NavLinks.Module.css"
 
 const NavLinks = ({ className, customNavLinkClass }) => {
     return (
-        <Router>
-            <>
-                <div className={`${styles.navbar} ${className}`}>
-                    {/* <div className={styles.subNavbar} > */}
-                    <Navlink title="Coffee" link={Coffee} className={`${styles.link} ${customNavLinkClass}`} />
-                    <Navlink title="Tea" link={Tea} className={`${styles.link} ${customNavLinkClass}`} />
-                    <Navlink title="About us" link={AboutUs} className={`${styles.link} ${customNavLinkClass}`} />
-                    {/* </div> */}
-                </div>
 
-                <Routes>
-                    <Route path="/coffee" Component={Coffee} />
-                    <Route path="/Tea" Component={Tea} />
-                    <Route path="/About us" Component={AboutUs} />
-                </Routes>
+        <>
+            <div className={`${styles.navbar} ${className}`}>
+                {/* <div className={styles.subNavbar} > */}
+                <Navlink title="Coffee" link={Coffee} className={`${styles.link} ${customNavLinkClass}`} />
+                <Navlink title="Tea" link={Tea} className={`${styles.link} ${customNavLinkClass}`} />
+                <Navlink title="About us" link={AboutUs} className={`${styles.link} ${customNavLinkClass}`} />
+                {/* </div> */}
+            </div>
 
-            </>
-        </Router >
+        </>
+
 
     )
 }
 export default NavLinks
+
+//   <Router>
+//             <Routes>
+//                 <Route path="/coffee" Component={Coffee} />
+//                 <Route path="/Tea" Component={Tea} />
+//                 <Route path="/About us" Component={AboutUs} />
+//             </Routes>
+// </Router >
