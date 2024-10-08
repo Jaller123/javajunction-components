@@ -3,12 +3,12 @@ import Logo from "../atoms/Logo";
 import styles from "./Header.module.css";
 import NavLinks from "../molecules/NavLinks";
 
-const Header = ({ navLinksClassName }) => {
+const Header = ({ navLinksClassName, customNavLinkClass }) => {
   return (
     <>
       <div className={styles.header}>
         <Logo />
-        <NavLinks className={navLinksClassName} />
+        <NavLinks className={navLinksClassName} customNavLinkClass={customNavLinkClass} />
 
       </div>
     </>

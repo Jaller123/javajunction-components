@@ -6,13 +6,13 @@ import AboutUs from "../organisms/AboutUs"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styles from "./NavLinks.Module.css"
 
-const NavLinks = ({ className }) => {
+const NavLinks = ({ className, customNavLinkClass }) => {
     return (
         <Router>
             <>
                 <div className={`${styles.navbar} ${className}`}>
                     {/* <div className={styles.subNavbar} > */}
-                    <Navlink title="Coffee" link={Coffee} className={styles.link} />
+                    <Navlink title="Coffee" link={Coffee} className={`${styles.link} ${customNavLinkClass}`} />
                     <Navlink title="Tea" link={Tea} className={styles.link} />
                     <Navlink title="About us" link={AboutUs} className={styles.link} />
                     {/* </div> */}
