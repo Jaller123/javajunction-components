@@ -1,6 +1,6 @@
 import React from "react";
-import AboutUsImg2 from "../atoms/AboutUsImg2";
-import AboutUsText3 from "../atoms/AboutUsText3";
+import AboutUsImg2 from "../../atoms/AboutUsImg2";
+import AboutUsText3 from "../../atoms/AboutUsText3";
 import styles from "./AboutUsBottomContent.module.css";
 
 const AboutUsBottomContent = () => {

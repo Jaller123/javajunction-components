@@ -1,6 +1,6 @@
 import React from "react";
-import AboutUsImg from "../atoms/AboutUsImg";
-import AboutUsText from "../atoms/AboutUsText";
+import AboutUsImg from "../../atoms/AboutUsImg";
+import AboutUsText from "../../atoms/AboutUsText";
 import styles from "./AboutUsTopContent.module.css";
 
 const AboutUsTopContent = () => {
