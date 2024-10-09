@@ -1,0 +1,29 @@
+.AboutUsTopContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.text {
+    flex: 1; 
+    max-width: 600px; /* Bevarar max-bredd för texten */
+    margin: auto; /* Centrerar textsektionen horisontellt */
+    padding: 20px; /* Padding runt texten */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D2B48C; 
+}
+
+.image {
+    flex: 1;
+    background-color: #B99976;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}

@@ -15,7 +15,7 @@ import { useState } from "react";
 
 
 const Coffee = () => {
-  const [cartCount, setCartCount] = useState(0); 
+  const [cartCount, setCartCount] = useState(0);
 
   const handleAddToCart = () => {
     setCartCount(cartCount + 1); // Increment the cart count
@@ -35,14 +35,15 @@ const Coffee = () => {
   return (
     <div className={styles.pageContainer}>
       <h1>Coffee</h1>
-      <CartIcon cartCount={cartCount} redirectToCheckout={() => alert("Redirect to Checkout")} />
+
+      <CartIcon cartCount={cartCount} />
       <div className={styles.gridContainer}>
         <div className={styles.topSection}>
           {items.slice(0, 4).map((item, index) => (
             <div key={item} className={styles.item}>
               <CoffeeImg src={coffeeImages[index]} />
               <AddToCartBtn handleAddToCart={handleAddToCart} />
-            
+
             </div>
           ))}
         </div>

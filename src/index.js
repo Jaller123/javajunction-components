@@ -7,5 +7,6 @@ import Footer from "./components/organisms/Footer";
 import Hero from "./components/atoms/Hero";
 import AddFooter from "./components/organisms/AddFooter"
 import AboutUs from "./components/organisms/AboutUs";
+import Orders from "./components/organisms/Orders/Orders"
 
-export { Coffee, ProjectPages, Header, NavLinks, Tea,Footer, Hero, AddFooter,AboutUs };
+export { Coffee, ProjectPages, Header, NavLinks, Tea, Footer, Hero, AddFooter, AboutUs, Orders };
