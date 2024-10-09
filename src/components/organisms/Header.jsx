@@ -4,6 +4,8 @@ import styles from "./Header.module.css";
 import NavLinks from "../molecules/NavLinks";
 
 const Header = ({ navLinksClassName, customNavLinkClass, scrollToSection, coffeeRef, teaRef, aboutUsRef }) => {
+
+
   return (
     <div className={styles.header}>
       <Logo />
